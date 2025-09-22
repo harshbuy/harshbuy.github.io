@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HarshCoin Market - Google Finance Style</title>
+    <link rel="stylesheet" href="style (2).css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="breadcrumb">Riepilogo mercato > HarshCoin</div>
+            <div class="main-info">
+                <div class="price-section">
+                    <span class="current-price" id="display-price">98.475,24</span> <span class="currency">EUR</span>
+                    <div class="change-info">
+                        <span class="change-value" id="change-value">+265,63</span>
+                        <span class="change-percentage" id="change-percentage">(0,27%)</span>
+                        <span class="change-today">oggi</span>
+                    </div>
+                </div>
+                <button class="follow-button">+ Segui</button>
+            </div>
+            <div class="disclaimer">
+                19 set, 23:57 UTC · <a href="#">Limitazione di responsabilità</a>
+            </div>
+        </header>
+
+        <section class="chart-controls">
+            <button class="time-range-button active" data-range="1G">1G</button>
+            <button class="time-range-button" data-range="5G">5G</button>
+            <button class="time-range-button" data-range="1M">1M</button>
+            <button class="time-range-button" data-range="6M">6M</button>
+            <button class="time-range-button" data-range="YTD">YTD</button>
+            <button class="time-range-button" data-range="1A">1A</button>
+            <button class="time-range-button" data-range="5A">5A</button>
+            <button class="time-range-button" data-range="Max">Max</button>
+        </section>
+
+        <section class="chart-area">
+            <img src="harshcoin_price_chart.png" alt="Grafico Prezzo HarshCoin" id="main-chart">
+        </section>
+
+        <section class="conversion-section">
+            <input type="number" value="1" class="conversion-input" id="input-amount">
+            <select class="currency-select" id="from-currency">
+                <option value="HarshCoin">HarshCoin</option>
+            </select>
+            <input type="text" value="98475,24" class="conversion-output" id="output-amount" readonly>
+            <select class="currency-select" id="to-currency">
+                <option value="EUR">EUR</option>
+            </select>
+        </section>
+
+        <footer class="footer">
+            <button class="more-info-button">Altre informazioni su HarshCoin →</button>
+            <span class="feedback-link">Feedback</span>
+        </footer>
+    </div>
+
+    <script src="script (2).js"></script>
+</body>
+</html>
+

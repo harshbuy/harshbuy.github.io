@@ -3,7 +3,7 @@ const translations = {
         "product-title-1": "Airpods Pro 2 <em>Edizione Limitata</em>",
         "price-1": "€ 49.99",
         "price-1-hcoin": "0.0049 HarshCoin",
-        "description-1": "<em>Un pezzo di tecnologia di qualità costruito per durare, realizzato presso la sede di HarshBuy.</em>",
+        "description-1": "<em>Un pezzo di tecnologia di qualità, fatto per durare da HarshBuy.</em>",
         "stock-1": "Disponibile in magazzino: 10",
         "buy-now-1": "Acquista ora",
 
